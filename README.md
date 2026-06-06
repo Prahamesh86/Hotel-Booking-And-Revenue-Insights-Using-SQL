@@ -105,20 +105,30 @@ This project addresses these challenges through SQL-driven analytics and reporti
 
 ### Customer Analysis
 ✔ Average Stay Duration
+
 ✔ Repeat Customers
+
 ✔ Top Guests by Booking Frequency
 
 ### Revenue Analysis
 ✔ Total Revenue Generated
+
 ✔ Annual Revenue Trends
+
 ✔ Monthly Revenue Trends
+
 ✔ Revenue by Room Type
+
 ✔ Top Spending Customers
 
 ### Guest Satisfaction Analysis
 ✔ Total Ratings
+
 ✔ Room Type Ratings
+
 ✔ Highest Rated Room Categories
+
+---
 
 ## 📌 Key Business Insights
 
@@ -132,6 +142,7 @@ This project addresses these challenges through SQL-driven analytics and reporti
 
 🔹 Guest review analysis highlights opportunities for service improvement.
 
+---
 
 ## ⚙️ Database Objects
 
@@ -147,5 +158,44 @@ Provides:
 
 Automates yearly booking analysis and reporting.
 
+---
 
 ## 📂 Project Structure
+Hotel-Booking-And-Revenue-Insights-Using-SQL
+│
+├── Customers.csv
+├── Rooms.csv
+├── Bookings.csv
+├── Reviews.csv
+├── Hotel_Booking.sql
+├── ER_Diagram.png
+├── Project_Presentation.pdf
+└── README.md
+
+
+
+---
+
+## 🚀 Outcomes
+
+- Improved visibility into booking patterns.
+- Revenue trend monitoring.
+- Customer behavior insights.
+- Room utilization analysis.
+- Hospitality business decision support.
+
+---
+
+## 👨‍💻 Author
+
+**Prathamesh Sonawane**
+
+📊 Data Analyst
+
+💻 SQL | Power BI | Excel | Python
+
+🔗 GitHub: https://github.com/Prathamesh86
+
+---
+
+⭐ If you found this project useful, consider giving it a star.

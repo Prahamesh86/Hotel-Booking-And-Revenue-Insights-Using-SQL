@@ -105,30 +105,20 @@ This project addresses these challenges through SQL-driven analytics and reporti
 
 ### Customer Analysis
 ✔ Average Stay Duration
-
 ✔ Repeat Customers
-
 ✔ Top Guests by Booking Frequency
 
 ### Revenue Analysis
 ✔ Total Revenue Generated
-
 ✔ Annual Revenue Trends
-
 ✔ Monthly Revenue Trends
-
 ✔ Revenue by Room Type
-
 ✔ Top Spending Customers
 
 ### Guest Satisfaction Analysis
 ✔ Total Ratings
-
 ✔ Room Type Ratings
-
 ✔ Highest Rated Room Categories
-
----
 
 ## 📌 Key Business Insights
 
@@ -142,7 +132,6 @@ This project addresses these challenges through SQL-driven analytics and reporti
 
 🔹 Guest review analysis highlights opportunities for service improvement.
 
----
 
 ## ⚙️ Database Objects
 
@@ -158,6 +147,5 @@ Provides:
 
 Automates yearly booking analysis and reporting.
 
----
 
 ## 📂 Project Structure

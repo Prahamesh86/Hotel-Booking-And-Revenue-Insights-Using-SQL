@@ -1,160 +1,163 @@
-🏨 Hotel Booking and Revenue Insights using SQL
-📌 Project Overview
+# 🏨 Hotel Booking & Revenue Insights Using SQL
 
-This project focuses on analyzing hotel booking, customer behavior, room performance, revenue trends, and guest reviews using SQL. The system helps hotel management make data-driven decisions by providing valuable business insights.
+## 📖 Project Overview
+This project analyzes hotel booking operations, customer behavior, room performance, revenue trends, and guest satisfaction using SQL. The objective is to transform raw booking data into actionable business insights that support strategic decision-making in the hospitality industry.
 
-📖 Presentation File:
+---
 
-🎯 Objectives
-Analyze booking patterns and occupancy trends.
-Identify top-performing room categories.
-Track monthly and yearly revenue.
-Understand customer booking behavior.
-Evaluate guest satisfaction through ratings and reviews.
-🛠️ Tools & Technologies
-MySQL
-SQL Queries
-MySQL Workbench
-CSV Datasets
-ER Diagram Design
-🗂️ Database Schema
+## 🎯 Business Problem
+Hotels generate large volumes of booking and customer data daily. Without proper analysis, it becomes difficult to:
 
-The project consists of four tables:
+- Track revenue performance
+- Identify booking trends
+- Optimize room utilization
+- Understand customer behavior
+- Improve guest satisfaction
 
-👤 Customers
-CustomerID
-FirstName
-LastName
-Email
-Phone
-🏨 Rooms
-RoomID
-RoomNumber
-RoomType
-PricePerNight
-📅 Bookings
-BookingID
-CustomerID
-RoomID
-CheckInDate
-CheckOutDate
-TotalAmount
-⭐ Reviews
-ReviewID
-BookingID
-Rating
-ReviewText
-ReviewDate
-🔗 ER Diagram
+This project addresses these challenges through SQL-driven analytics and reporting.
 
-The database follows a relational model with:
+---
 
-One Customer → Many Bookings
-One Room → Many Bookings
-One Booking → One Review
-📊 SQL Concepts Used
-DDL Commands
-CREATE DATABASE
-CREATE TABLE
-PRIMARY KEY
-FOREIGN KEY
-DML Commands
-SELECT
-INSERT
-SQL Clauses
-WHERE
-GROUP BY
-ORDER BY
-HAVING
-Aggregate Functions
-SUM()
-COUNT()
-AVG()
-MIN()
-MAX()
-ROUND()
-Joins
-INNER JOIN
-LEFT JOIN
-Date Functions
-YEAR()
-MONTH()
-DATEDIFF()
-Advanced SQL
-Views
-Stored Procedures
-DISTINCT
-LIMIT
-📈 Business Analysis Performed
-🏨 Room Analysis
-Total Rooms Available
-Room Categories
-Popular Room Types
-Room Booking Count
-📅 Booking Trends
-Monthly Booking Trends
-Seasonal Booking Analysis
-Booking Frequency
-👥 Guest Analysis
-Average Stay Duration
-Top Guests by Booking Count
-💰 Revenue Analysis
-Total Revenue
-Annual Revenue
-Monthly Revenue Trends
-Revenue by Room Type
-Top Spending Customers
-⭐ Review Analysis
-Total Ratings
-Room Type Ratings
-Top Rated Room Categories
-📌 Key Insights
+## 🛠 Tech Stack
 
-✅ Peak bookings occur during festive seasons and holidays.
+- MySQL
+- MySQL Workbench
+- SQL
+- ER Modeling
+- CSV Datasets
+- Git & GitHub
 
-✅ Premium room categories generate the highest revenue.
+---
 
-✅ Repeat customers contribute significantly to bookings.
+## 🗄 Database Design
 
-✅ Revenue shows strong growth during peak travel periods.
+### Tables
+| Table | Description |
+|---------|-------------|
+| Customers | Guest information |
+| Rooms | Room details and pricing |
+| Bookings | Booking transactions |
+| Reviews | Guest ratings and feedback |
 
-✅ Guest ratings help identify service improvement opportunities.
+### Entity Relationships
+- One Customer → Many Bookings
+- One Room → Many Bookings
+- One Booking → One Review
 
-🚀 View & Stored Procedure
-View
+---
 
-BookingSummary
+## 📊 Key SQL Concepts Applied
 
-Monthly Bookings
-Monthly Revenue
-Stored Procedure
+### Database Operations
+- CREATE DATABASE
+- CREATE TABLE
+- PRIMARY KEY
+- FOREIGN KEY
 
-GetBookingsByYear
+### Data Analysis
+- WHERE
+- GROUP BY
+- ORDER BY
+- HAVING
 
-Generates booking analysis for a selected year.
-📂 Project Files
-Hotel_Booking.sql
-Customers.csv
-Rooms.csv
-Bookings.csv
-Reviews.csv
-ER Diagram
-Project Presentation
-📸 Project Screenshots
+### Aggregate Functions
+- SUM()
+- COUNT()
+- AVG()
+- MIN()
+- MAX()
+- ROUND()
 
-Add screenshots of:
+### Joins
+- INNER JOIN
+- LEFT JOIN
 
-ER Diagram
-Revenue Analysis Queries
-Booking Trends
-Customer Analysis
-SQL Output Results
-👨‍💻 Author
+### Date Functions
+- YEAR()
+- MONTH()
+- DATEDIFF()
 
-Prathamesh Sonawane
+### Advanced SQL
+- Views
+- Stored Procedures
+- DISTINCT
+- LIMIT
 
-🎓 Data Science & Data Analytics
+---
 
-📍 Maharashtra, India
+## 📈 Analysis Performed
 
-💼 Aspiring Data Analyst | SQL | Power BI | Excel | Python
+### Room Performance Analysis
+✔ Total Rooms Available
+
+✔ Room Categories
+
+✔ Most Booked Room Types
+
+✔ Room-wise Booking Distribution
+
+### Booking Trend Analysis
+✔ Monthly Booking Trends
+
+✔ Seasonal Booking Patterns
+
+✔ Yearly Booking Analysis
+
+### Customer Analysis
+✔ Average Stay Duration
+
+✔ Repeat Customers
+
+✔ Top Guests by Booking Frequency
+
+### Revenue Analysis
+✔ Total Revenue Generated
+
+✔ Annual Revenue Trends
+
+✔ Monthly Revenue Trends
+
+✔ Revenue by Room Type
+
+✔ Top Spending Customers
+
+### Guest Satisfaction Analysis
+✔ Total Ratings
+
+✔ Room Type Ratings
+
+✔ Highest Rated Room Categories
+
+---
+
+## 📌 Key Business Insights
+
+🔹 Peak booking demand occurs during festive and holiday seasons.
+
+🔹 Premium room categories contribute the highest revenue.
+
+🔹 Repeat guests significantly impact overall occupancy.
+
+🔹 Revenue demonstrates strong seasonal patterns.
+
+🔹 Guest review analysis highlights opportunities for service improvement.
+
+---
+
+## ⚙️ Database Objects
+
+### View
+**BookingSummary**
+
+Provides:
+- Monthly Booking Count
+- Monthly Revenue
+
+### Stored Procedure
+**GetBookingsByYear()**
+
+Automates yearly booking analysis and reporting.
+
+---
+
+## 📂 Project Structure
